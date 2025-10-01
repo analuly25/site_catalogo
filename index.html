@@ -3,13 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo com Detalhes</title>
+  <title>Discografia SKZ</title>
+  <link rel="icon" href="img/pngegg.png" type="application/atom+xml" title="Atom">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+<header>
+  <nav class="menu">
+
+      <img src="img/logo.png" alt="Logo do site" class="logo">
+
+  </nav>
+</header>
+
+
   <main class="catalog-container">
-    <h1>Discografia Stray Kids</h1>
-    <img src="img/item0.jpg" alt="ot8">
+
+    <div class="intro">
+      <div class="texto">
+    <h2>Bem-vindo à Discografia</h2>
+    <p>Aqui você encontra todos os álbuns do Stray Kids, com as músicas de cada era.</p>
+  </div>
+
+  <div class="imagem">
+    <img src="img/item0.jpg" alt="Stray Kids OT8">
+  </div>
+    </div>
+    
+
+    <div class="top-section">
+
+</div>
+
 
     <!-- Catálogo -->
     <div class="catalog">
@@ -107,7 +134,7 @@
     <section id="details">
       <!-- Item 23 - KARMA -->
       <div id="det23" class="detail hidden">
-        <h2>KARMA</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=sXrK-mP_G9U&list=PLxA687tYuMWhDGCtgS49UM1IfIlXuBLjo')">KARMA</h2>
         <img src="img/item23.jpg" alt="Item 1 grande">
         <dl>
           <dd>BLEEP</dd><br>
@@ -122,17 +149,12 @@
           <dd>CEREMONY(Festival Version)</dd><br>
           <dd>CEREMONY(English Version)</dd><br>
         </dl>
-         <audio controls>
-            <source src ="Stray Kids _CEREMONY_ M_V [P7vBoGWoReg].mp3" type = "audio/mp3" >
-        </audio>
-        <footer>7 out. 2022</footer>
       </div>
 
       <!-- Item 22-HOP -->
       <div id="det22" class="detail hidden">
-        <h2>HOP</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=sd8U4Hfmkfg&list=PLxA687tYuMWiTV5Ze4br-DFQnyDmYtl6s')">HOP</h2>
         <img src="img/item22.jpg" alt="Item 22 grande">
-        <p>Versão premium com acabamento metálico.</p>
         <dl>
           <dd>Walking On Water</dd><br>
           <dd>Bounce Back</dd><br>
@@ -151,7 +173,7 @@
 
       <!-- Item 21-GIANT -->
       <div id="det21" class="detail hidden">
-        <h2>GIANT</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=s0kVKePaapQ&list=PLC0gUvWkXLtCHJ0OSy607-ASFHPsEN4hJ')">GIANT</h2>
         <img src="img/item21.jpg" alt="Item 21 grande">
           <dl>
           <dd>GIANT</dd><br>
@@ -169,7 +191,7 @@
 
       <!-- Item 20-ATE -->
       <div id="det20" class="detail hidden">
-        <h2>ATE</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=p56y9erlnO4&list=PLxA687tYuMWjbWamjy49um8PBF6gR8DFG&pp=0gcJCaIEOCosWNin')">ATE</h2>
         <img src="img/item20.jpg" alt="Item 20 grande">
        <dl>
         <dd>MOUNTAINS</dd><br>
@@ -185,7 +207,7 @@
 
       <!-- Item 19-ROCK-STAR -->
       <div id="det19" class="detail hidden">
-        <h2>ROCK-STAR</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=7-X_7Tk0wXI&list=PL6WGt3sPOyGOb_giNuVLxpRn6l02D_VTNhttps://www.youtube.com/watch?v=sd8U4Hfmkfg&list=PLxA687tYuMWiTV5Ze4br-DFQnyDmYtl6s')">ROCK-STAR</h2>
         <img src="img/item19.jpg" alt="Item 19 grande">
         <dl>
           <dd>MEGAVERSE</dd><br>
@@ -201,7 +223,7 @@
 
       <!-- Item 18-5STAR -->
       <div id="det18" class="detail hidden">
-        <h2>Item 6</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=XRx2vo9UeWg&list=PLxA687tYuMWip4J2wM9SXYHfz0I8G0PCp')">5 Star</h2>
         <img src="img/item18.jpg" alt="Item 6 grande">
          <dl>
           <dd>Hall of Fame</dd><br>
@@ -221,9 +243,8 @@
 
       <!-- Item 17-THE SOUND -->
       <div id="det17" class="detail hidden">
-        <h2>THE SOUND</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=Y2Hp-EMOZH8&list=PLKkZQUgBQ1JNPAsPyMr9Fv6a9z2Td1hQR')">THE SOUND</h2>
         <img src="img/item17.jpg" alt="Item 17 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
         <dl>
           <dd>The Sound</dd><br>
           <dd>Battle Ground</dd><br>
@@ -240,9 +261,8 @@
 
       <!-- Item 16-SKZREPLAY -->
       <div id="det16" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=i-ju-Auf-C8&list=PLKkZQUgBQ1JM5epHzZretq_U4Dh5sohoO')">SKZ-REPLAY</h2>
         <img src="img/item16.jpg" alt="Item 16 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>FAM (Korean Ver.)</dd><br>
           <dd>Connected (Bang Chan)</dd><br>
@@ -259,9 +279,8 @@
 
       <!-- Item 15-MAXIDENT -->
       <div id="det15" class="detail hidden">
-        <h2>MAXIDENT</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=ZeIneYtQ1rw&list=PLWYQfRydbeaweEda4psMSzeV0dWLXnSNr')">MAXIDENT</h2>
         <img src="img/item15.jpg" alt="Item 15 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
              <dl>
           <dd>CASE 143</dd><br>
           <dd>CHILL</dd><br>
@@ -271,15 +290,11 @@
           <dd>Cant Stop(I.N, Seungmin)</dd><br>
           <dd>CIRCUS(Korean Ver.)</dd><br>
         </dl>
-         <audio controls>
-            <source src ="Stray Kids _CEREMONY_ M_V [P7vBoGWoReg].mp3" type = "audio/mp3" >
-        </audio>
-        <footer>7 out. 2022</footer>
       </div>
 
       <!-- Item 14-ODDINARY -->
       <div id="det14" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=ngBk3v4FWTM&list=PLvwxw_LiHMjiNVda4QKvMdgIDczM1Xnml')">ODDINARY</h2>
         <img src="img/item14.jpg" alt="Item 14 grande">
         <dl>
           <dd>VENOM</dd><br>
@@ -294,9 +309,8 @@
 
       <!-- Item 13-SKZ2021 -->
       <div id="det13" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=hpq9nZpU34I&list=PLlRKf3tm6rglcWdxz6BBF_1lQxE2hezu6')">SKZ2021</h2>
         <img src="img/item13.png" alt="Item 13 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>Scars (Korean Ver.)</dd><br>
           <dd>Awaken</dd><br>
@@ -318,9 +332,8 @@
 
       <!-- Item 12-NOEASY -->
       <div id="det12" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=pBFL8NIBy5E&list=PLmHaC9aH9Utq4yf62KIwU6SaTc2I2DM67')">NOEASY</h2>
         <img src="img/item12.png" alt="Item 12 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>CHESSE</dd><br>
           <dd>Thunderous</dd><br>
@@ -341,9 +354,8 @@
 
       <!-- Item 11-ALL IN -->
       <div id="det11" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=ySxIjeCScgY&list=RDySxIjeCScgY&start_radio=1&pp=ygUQYWxsIGluIGFsYnVtIHNreqAHAQ%3D%3D')">ALL IN</h2>
         <img src="img/item11.png" alt="Item 11 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>ALL IN</dd><br>
           <dd>FAM</dd><br>
@@ -357,9 +369,8 @@
 
       <!-- Item 10- IN LIFE -->
       <div id="det10" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=BJT4IhFDWSI&list=PLBXl392FRRgztl3cMgkQ56iiInAqlPwO2')">IN LIFE</h2>
         <img src="img/item10.png" alt="Item 10 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>The Tortoise and the Hare</dd><br>
           <dd>Back Door</dd><br>
@@ -383,7 +394,7 @@
 
       <!-- Item 9 - GO LIVE -->
       <div id="det9" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=KjiZ4Mxx0eo&list=PLk34QlH6hnPMCvEb8bqj5LuW9ZDVXnbb1')">GO LIVE</h2>
         <img src="img/item9.png" alt="Item 9 grande">
          <dl>
           <dd>GO LIVE</dd><br>
@@ -405,9 +416,8 @@
 
   <!-- Item 7 - Clé: LEVANTER -->
       <div id="det7" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=xd-uC02Qmmc&list=PL0wP_rs0eow9lh4meGmM6bCgCoFS7YH72')">Clé: LEVANTER</h2>
         <img src="img/item7.png" alt="Item 7 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>STOP</dd><br>
           <dd>Double Knot</dd><br>
@@ -421,9 +431,8 @@
 
   <!-- Item 6 - Clé 2: Yellowood -->
       <div id="det6" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=m3q5yLUtwUg&list=PLuGgBn_vV8Y98Y3dwAVF6j-K3wgxCIOll')">Clé 2: Yellowood</h2>
         <img src="img/item6.png" alt="Item 6 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>Road Not Taken</dd><br>
           <dd>Side Effects</dd><br>
@@ -437,9 +446,8 @@
 
   <!-- Item 5 - Clé 1: MIROH -->
       <div id="det5" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=ZF8RkqvOFRc&list=PLfg4x7GfL__Wd--0EpuTZCqTFFF5E9nXL&pp=0gcJCaIEOCosWNin')">Clé 1: MIROH</h2>
         <img src="img/item5.png" alt="Item 5 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>Entrance</dd><br>
           <dd>MIROH</dd><br>
@@ -453,9 +461,8 @@
 
   <!-- Item 4 - I AM YOU -->
       <div id="det4" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=B7HrwvISXmw&list=PLk34QlH6hnPOcWAgfX2WBlLQay2Z2PgW-')">I AM YOU</h2>
         <img src="img/item4.png" alt="Item 4 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>YOU.</dd><br>
           <dd>I am YOU</dd><br>
@@ -470,9 +477,8 @@
       
   <!-- Item 3 - I AM WHO -->
       <div id="det3" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=BpuEOt3kv0Y&list=PLDISsm1KUmQTmICnhueVO0OdsE5CY_YN3&pp=0gcJCaIEOCosWNin')">I AM WHO</h2>
         <img src="img/item3.png" alt="Item 3 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>WHO?</dd><br>
           <dd>My Pace</dd><br>
@@ -487,9 +493,8 @@
       
   <!-- Item 2 - I AM NOT -->
       <div id="det2" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=MmLDL2u_Z7Q&list=PLo6s2CiemroFlRO0MvO59ZBnM2LfreC4J&pp=0gcJCaIEOCosWNin')">I AM NOT</h2>
         <img src="img/item2.png" alt="Item 2 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>NOT!</dd><br>
           <dd>District 9</dd><br>
@@ -504,9 +509,8 @@
       
   <!-- Item 1 - MIXTAPE -->
       <div id="det1" class="detail hidden">
-        <h2>Item 3</h2>
+        <h2 onclick="openYoutube('https://www.youtube.com/watch?v=h4gEYubw5-Y&list=PLHBGuJ0GJUNZSyEaIKEES9mbXdbzDdGCI')">MIXTAPE</h2>
         <img src="img/item1.png" alt="Item 1 grande">
-        <p>Compacto e feito de madeira sustentável.</p>
          <dl>
           <dd>Hellevator</dd><br>
           <dd>BEWARE</dd><br>
@@ -517,6 +521,7 @@
           <dd>4419</dd><br>
         </dl>
       </div>
+    </div>
 
     </section>
   </main>
